@@ -3,7 +3,7 @@ Two scripts that use Powershell to search for files containing JNDILookup.class 
 
 ## Domain-Search-Log4j.ps1
 
-The script gets all windows servers for the current domain and uses Invoke-Command to check multiple systems in parallel. The default iniial launch is 32 systems. You can change this figure by including the ```-ThrottleLimit``` parameter followed by the number of concurrent sessions.
+The script gets all windows servers for the current domain and uses Invoke-Command to check multiple systems in parallel. The default initial launch is 32 systems. You can change this figure by including the ```-ThrottleLimit``` parameter followed by the number of concurrent sessions.
 
 ***Example***
 
