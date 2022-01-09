@@ -1,5 +1,5 @@
 # log4j-file-search
-Two scripts that use Powershell to search for files containing JNDILookup.class as text as an identifier for log4j CVE-2021-44228 on all windows servers in Active Directory that have PS Remoting enabled.
+Two scripts that use Powershell to search for files containing JNDILookup.class as a basic identifier for log4j (CVE-2021-44228) on all windows servers in Active Directory. It requires the servers to have PS Remoting enabled.
 
 ## Domain-Search-Log4j.ps1
 
@@ -17,4 +17,4 @@ All systems must be accessible using the current logged on credentials. If you n
 
 ## Forest-Search-Log4j.ps1
 
-An amended script to gather all windows servers from all domains. I needed to eb an Enterprise Admin and the script then runs under this user contaxt. Be aware of this iof you use it. Everything else is the same.
+An amended script to gather all windows servers from all domains. I needed to be an Enterprise Admin and the script then ran under this user contaxt. Be aware of this if you use it. Everything else is the same.
