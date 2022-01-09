@@ -17,4 +17,4 @@ All systems must be accessible using the current logged on credentials. If you n
 
 ## Forest-Search-Log4j.ps1
 
-An amended script to gather all windows servers from all domains. I needed to be an Enterprise Admin and the script then ran under this user contaxt. Be aware of this if you use it. Everything else is the same.
+An amended script to gather all windows servers from all domains. I needed to be an Enterprise Admin and the script then ran under this user context. Be aware of this if you use it. Everything else is the same.
